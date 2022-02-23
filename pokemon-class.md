@@ -11,7 +11,7 @@ classDiagram
         // [Pokemon Physical]
         Array~PokemonGender~ genderPatterns
         PokemonSize size
-        Array~String~ evolutions
+        Array~Pokemon~ evolutions
     }
     Pokemon *--> PokemonSize
     Pokemon *--> PokemonGender
