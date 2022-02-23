@@ -5,7 +5,6 @@ classDiagram
         // [Global Pokedex]
         Number globalPokedexNumber
         Optional~String~ kindIdentifier
-        String globalPokedexIdentifier
         PokemonName name
 
         // [Pokemon Physical]

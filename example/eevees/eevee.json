@@ -1,0 +1,145 @@
+{
+    "globalPokedexNumber": "133",
+    "name": {
+        "jp": "イーブイ",
+        "romajiNotation": "eievui",
+        "en": "eevee"
+    },
+    "genderPatterns": [
+        "MALE", "FEMALE"
+    ],
+    "size": {
+        "weight": 14.3,
+        "height": 1.00
+    },
+    "evolutions": [
+        {
+            "globalPokedexNumber": "134",
+            "name": {
+                "jp": "シャワーズ",
+                "romajiNotation": "Showers",
+                "en": "Vaporeon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 63.9,
+                "height": 3.03
+            },
+            "evolutions": []
+        },
+        {
+            "globalPokedexNumber": "135",
+            "name": {
+                "jp": "サンダース",
+                "romajiNotation": "Thunders",
+                "en": "Jolteon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 54.0,
+                "height": 2.07
+            },
+            "evolutions": []
+        },
+        {
+            "globalPokedexNumber": "136",
+            "name": {
+                "jp": "ブースター",
+                "romajiNotation": "Booster",
+                "en": "Flareon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 55.1,
+                "height": 2.11
+            },
+            "evolutions": []
+        },
+        {
+            "globalPokedexNumber": "196",
+            "name": {
+                "jp": "エーフィ",
+                "romajiNotation": "Eifie",
+                "en": "Espeon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 58.4,
+                "height": 2.11
+            },
+            "evolutions": []
+        },
+        {
+            "globalPokedexNumber": "197",
+            "name": {
+                "jp": "ブラッキー",
+                "romajiNotation": "Blacky",
+                "en": "Umbreon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 59.5,
+                "height": 3.03
+            },
+            "evolutions": []
+        },
+        {
+            "globalPokedexNumber": "470",
+            "name": {
+                "jp": "リーフィア",
+                "romajiNotation": "Leafia",
+                "en": "Leafeon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 56.2,
+                "height": 3.03
+            },
+            "evolutions": []
+        },
+        {
+            "globalPokedexNumber": "471",
+            "name": {
+                "jp": "グレイシア",
+                "romajiNotation": "Glacia",
+                "en": "Glaceon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 57.1,
+                "height": 2.07
+            },
+            "evolutions": []
+        },
+        {
+            "globalPokedexNumber": "700",
+            "name": {
+                "jp": "ニンフィア",
+                "romajiNotation": "Nymphia",
+                "en": "Sylveon"
+            },
+            "genderPatterns": [
+                "MALE", "FEMALE"
+            ],
+            "size": {
+                "weight": 51.8,
+                "height": 3.03
+            },
+            "evolutions": []
+        }
+    ]
+}
