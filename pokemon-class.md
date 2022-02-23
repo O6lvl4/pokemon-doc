@@ -3,14 +3,15 @@ classDiagram
 
     class Pokemon {
         // [Global Pokedex]
-        Int globalPokedexNumber
+        Number globalPokedexNumber
         Optional~String~ kindIdentifier
         String globalPokedexIdentifier
+
         // [Pokemon Physical]
-        Optional~PokemonGender~ gender
+        Array~PokemonGender~ genderPatterns
         PokemonSize size
-        Boolean shiny
         Array~Pokemon~ evolutions
+
         // [Name]
         String nameEN
         String nameJPtoEN
@@ -20,8 +21,8 @@ classDiagram
     Pokemon *--> PokemonGender
 
     class PokemonSize {
-        Int width
-        Int height
+        Number weight
+        Number height
     }
 
     class PokemonGender {
