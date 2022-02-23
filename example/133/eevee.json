@@ -1,5 +1,5 @@
 {
-    "globalPokedexNumber": "133",
+    "globalPokedexNumber": 133,
     "name": {
         "jp": "イーブイ",
         "romajiNotation": "eievui",
@@ -14,7 +14,7 @@
     },
     "evolutions": [
         {
-            "globalPokedexNumber": "134",
+            "globalPokedexNumber": 134,
             "name": {
                 "jp": "シャワーズ",
                 "romajiNotation": "Showers",
@@ -30,7 +30,7 @@
             "evolutions": []
         },
         {
-            "globalPokedexNumber": "135",
+            "globalPokedexNumber": 135,
             "name": {
                 "jp": "サンダース",
                 "romajiNotation": "Thunders",
@@ -46,7 +46,7 @@
             "evolutions": []
         },
         {
-            "globalPokedexNumber": "136",
+            "globalPokedexNumber": 136,
             "name": {
                 "jp": "ブースター",
                 "romajiNotation": "Booster",
@@ -62,7 +62,7 @@
             "evolutions": []
         },
         {
-            "globalPokedexNumber": "196",
+            "globalPokedexNumber": 196,
             "name": {
                 "jp": "エーフィ",
                 "romajiNotation": "Eifie",
@@ -78,7 +78,7 @@
             "evolutions": []
         },
         {
-            "globalPokedexNumber": "197",
+            "globalPokedexNumber": 197,
             "name": {
                 "jp": "ブラッキー",
                 "romajiNotation": "Blacky",
@@ -94,7 +94,7 @@
             "evolutions": []
         },
         {
-            "globalPokedexNumber": "470",
+            "globalPokedexNumber": 470,
             "name": {
                 "jp": "リーフィア",
                 "romajiNotation": "Leafia",
@@ -110,7 +110,7 @@
             "evolutions": []
         },
         {
-            "globalPokedexNumber": "471",
+            "globalPokedexNumber": 471,
             "name": {
                 "jp": "グレイシア",
                 "romajiNotation": "Glacia",
@@ -126,7 +126,7 @@
             "evolutions": []
         },
         {
-            "globalPokedexNumber": "700",
+            "globalPokedexNumber": 700,
             "name": {
                 "jp": "ニンフィア",
                 "romajiNotation": "Nymphia",
