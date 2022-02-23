@@ -17,6 +17,7 @@ classDiagram
     }
     Pokemon *--> PokemonSize
     Pokemon *--> PokemonGender
+    Pokemon *--> PokemonName
 
     class PokemonSize {
         Number weight
