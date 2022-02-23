@@ -3,7 +3,7 @@ classDiagram
 
     class Pokemon {
         Int globalNumber
-        Optional~String~ kindIdentifier
+        String? kindIdentifier
         PokemonSize size
         PokemonType type1
         PokemonType type2
@@ -11,9 +11,11 @@ classDiagram
         String nameEN
         String nameJPtoEN
         String nameJP
+        PokemonGender? gender
     }
     Pokemon *--> PokemonSize
     Pokemon *--> PokemonType
+    Pokemon *--> PokemonGender
 
     class PokemonSize {
         Int width
@@ -22,5 +24,11 @@ classDiagram
 
     class PokemonType {
         String name
+    }
+
+    class PokemonGender {
+        <<enum>>
+        MALE
+        FEMALE
     }
 ```
