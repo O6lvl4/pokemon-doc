@@ -10,12 +10,10 @@ classDiagram
         // [Pokemon Physical]
         Array~PokemonGender~ genderPatterns
         PokemonSize size
-        Array~Pokemon~ evolutions
+        Array~String~ evolutions
 
         // [Name]
-        String nameEN
-        String nameJPtoEN
-        String nameJP
+        PokemonName name
     }
     Pokemon *--> PokemonSize
     Pokemon *--> PokemonGender
@@ -29,5 +27,11 @@ classDiagram
         <<enum>>
         MALE
         FEMALE
+    }
+
+    class PokemonName {
+        String jp
+        String romajiNotation
+        String en
     }
 ```
