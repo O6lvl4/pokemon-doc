@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
 
     class Pokemon {
@@ -22,4 +23,4 @@ classDiagram
     class PokemonType {
         String name
     }
-
+```
