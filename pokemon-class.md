@@ -10,6 +10,7 @@ classDiagram
         Optional~PokemonGender~ gender
         PokemonSize size
         Boolean shiny
+        Array~Pokemon~ evolutions
         // [Name]
         String nameEN
         String nameJPtoEN
