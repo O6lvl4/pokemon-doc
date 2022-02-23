@@ -6,14 +6,12 @@ classDiagram
         Number globalPokedexNumber
         Optional~String~ kindIdentifier
         String globalPokedexIdentifier
+        PokemonName name
 
         // [Pokemon Physical]
         Array~PokemonGender~ genderPatterns
         PokemonSize size
         Array~String~ evolutions
-
-        // [Name]
-        PokemonName name
     }
     Pokemon *--> PokemonSize
     Pokemon *--> PokemonGender
