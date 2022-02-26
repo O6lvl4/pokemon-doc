@@ -9,8 +9,26 @@
         "MALE", "FEMALE"
     ],
     "size": {
-        "weight": 14.3,
-        "height": 1.00
+        "jp": {
+            "weight": {
+                "value": 6.5,
+                "unit": "kg"
+            },
+            "height": {
+                "value": 0.3,
+                "unit": "meter"
+            }
+        },
+        "en": {
+            "weight": {
+                "value": 14.3,
+                "unit": "lbs"
+            },
+            "height": {
+                "value": 1.0,
+                "unit": "feet.inch"
+            }
+        }
     },
     "evolutions": [
         {
@@ -23,9 +41,25 @@
             "genderPatterns": [
                 "MALE", "FEMALE"
             ],
-            "size": {
-                "weight": 63.9,
-                "height": 3.03
+            "jp": {
+                "weight": {
+                    "value": 29.0,
+                    "unit": "kg"
+                },
+                "height": {
+                    "value": 1.0,
+                    "unit": "meter"
+                }
+            },
+            "en": {
+                "weight": {
+                    "value": 63.9,
+                    "unit": "lbs"
+                },
+                "height": {
+                    "value": 3.03,
+                    "unit": "feet.inch"
+                }
             },
             "evolutions": []
         },
@@ -40,8 +74,26 @@
                 "MALE", "FEMALE"
             ],
             "size": {
-                "weight": 54.0,
-                "height": 2.07
+                "jp": {
+                    "weight": {
+                        "value": 24.5,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 0.8,
+                        "unit": "meter"
+                    }
+                },
+                "en": {
+                    "weight": {
+                        "value": 54.0,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 2.07,
+                        "unit": "feet.inch"
+                    }
+                }
             },
             "evolutions": []
         },
@@ -56,8 +108,26 @@
                 "MALE", "FEMALE"
             ],
             "size": {
-                "weight": 55.1,
-                "height": 2.11
+                "jp": {
+                    "weight": {
+                        "value": 25.0,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 0.9,
+                        "unit": "meter"
+                    }
+                },
+                "en": {
+                    "weight": {
+                        "value": 55.1,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 2.11,
+                        "unit": "feet.inch"
+                    }
+                }
             },
             "evolutions": []
         },
@@ -73,7 +143,27 @@
             ],
             "size": {
                 "weight": 58.4,
-                "height": 2.11
+                "height": 2.11,
+                "jp": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "meter"
+                    }
+                },
+                "en": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "feet.inch"
+                    }
+                }
             },
             "evolutions": []
         },
@@ -89,7 +179,27 @@
             ],
             "size": {
                 "weight": 59.5,
-                "height": 3.03
+                "height": 3.03,
+                "jp": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "meter"
+                    }
+                },
+                "en": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "feet.inch"
+                    }
+                }
             },
             "evolutions": []
         },
@@ -105,7 +215,27 @@
             ],
             "size": {
                 "weight": 56.2,
-                "height": 3.03
+                "height": 3.03,
+                "jp": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "meter"
+                    }
+                },
+                "en": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "feet.inch"
+                    }
+                }
             },
             "evolutions": []
         },
@@ -121,7 +251,27 @@
             ],
             "size": {
                 "weight": 57.1,
-                "height": 2.07
+                "height": 2.07,
+                "jp": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "meter"
+                    }
+                },
+                "en": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "feet.inch"
+                    }
+                }
             },
             "evolutions": []
         },
@@ -137,7 +287,27 @@
             ],
             "size": {
                 "weight": 51.8,
-                "height": 3.03
+                "height": 3.03,
+                "jp": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "meter"
+                    }
+                },
+                "en": {
+                    "weight": {
+                        "value": 0.0,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 0.0,
+                        "unit": "feet.inch"
+                    }
+                }
             },
             "evolutions": []
         }
