@@ -41,24 +41,26 @@
             "genderPatterns": [
                 "MALE", "FEMALE"
             ],
-            "jp": {
-                "weight": {
-                    "value": 29.0,
-                    "unit": "kg"
+            "size": {
+                "jp": {
+                    "weight": {
+                        "value": 29.0,
+                        "unit": "kg"
+                    },
+                    "height": {
+                        "value": 1.0,
+                        "unit": "meter"
+                    }
                 },
-                "height": {
-                    "value": 1.0,
-                    "unit": "meter"
-                }
-            },
-            "en": {
-                "weight": {
-                    "value": 63.9,
-                    "unit": "lbs"
-                },
-                "height": {
-                    "value": 3.03,
-                    "unit": "feet.inch"
+                "en": {
+                    "weight": {
+                        "value": 63.9,
+                        "unit": "lbs"
+                    },
+                    "height": {
+                        "value": 3.03,
+                        "unit": "feet.inch"
+                    }
                 }
             },
             "evolutions": []
