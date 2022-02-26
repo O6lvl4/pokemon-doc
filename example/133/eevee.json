@@ -2,8 +2,8 @@
     "globalPokedexNumber": 133,
     "name": {
         "jp": "イーブイ",
-        "romajiNotation": "eievui",
-        "en": "eevee"
+        "romajiNotation": "Eievui",
+        "en": "Eevee"
     },
     "genderPatterns": [
         "MALE", "FEMALE"
