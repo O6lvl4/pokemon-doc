@@ -1,7 +1,7 @@
 ```mermaid
 classDiagram
 
-    class Pokemon~T: PokemonStatisticsc~ {
+    class Pokemon~T: PokemonStatsc~ {
         // [Global Pokedex]
         Number globalPokedexNumber
         Optional~String~ kindIdentifier
@@ -12,13 +12,13 @@ classDiagram
         PokemonSize size
         Array~Pokemon~ evolutions
 
-        // [Generation Statisticsc]
-        T statisticsc
+        // [Generation Statsc]
+        T statsc
     }
     Pokemon *--> PokemonSize
     Pokemon *--> PokemonGender
     Pokemon *--> PokemonName
-    Pokemon *--> PokemonStatisticsc
+    Pokemon *--> PokemonStatsc
 
     class PokemonSize {
         Number weight
@@ -43,16 +43,18 @@ classDiagram
     }
     Generation *--> Pokemon
 
-    class PokemonStatisticsc {
+    class PokemonStatsc {
         <<interface>>
     }
 
-    class StatisticscOfGeneration1 {
+    class StatscOfGeneration1 {
         Number level
         PokemonType type1
         PokemonType type2
+        BaseStatsOfGeneration1 baseStats
     }
-    StatisticscOfGeneration1 --|> PokemonStatisticsc
+    StatscOfGeneration1 --|> PokemonStatsc
+    StatscOfGeneration1 *--> BaseStatsOfGeneration1
 
     class GameProduct {
         Required~ID~ id
@@ -65,6 +67,14 @@ classDiagram
     GameProduct *--> Hardware
     GameProduct *--> Generation
     GameProduct *--> RegionPokedex
+
+    class BaseStatsOfGeneration1 {
+        Number hitPoint
+        Number attack
+        Number defense
+        Number special
+        Number speed
+    }
 
     class Hardware {
         Required~ID~ id
