@@ -12,8 +12,8 @@ classDiagram
         PokemonSize size
         Array~Pokemon~ evolutions
 
-        // [Generation Status]
-        T status
+        // [Generation Statisticsc]
+        T statisticsc
     }
     Pokemon *--> PokemonSize
     Pokemon *--> PokemonGender
