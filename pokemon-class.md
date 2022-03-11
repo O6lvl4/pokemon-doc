@@ -32,4 +32,25 @@ classDiagram
         String romajiNotation
         String en
     }
+
+    class Generation {
+        Required~ID~ id
+        Array~Pokemon~ availablePokemons
+    }
+    Generation *--> Pokemon    
+
+    class GameProduct {
+        Required~ID~ id
+        String name
+        Hardware hardware
+        Generation generation
+        Date releaseDate
+    }
+    GameProduct *--> Hardware
+    GameProduct *--> Generation
+
+    class Hardware {
+        Required~ID~ id
+        String name
+    }
 ```
