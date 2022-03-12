@@ -49,11 +49,12 @@ classDiagram
 
     class StatscOfGeneration1 {
         Number level
-        PokemonType type1
-        PokemonType type2
+        PokemonBattleType type1
+        PokemonBattleType type2
         BaseStatsOfGeneration1 baseStats
     }
     StatscOfGeneration1 --|> PokemonStatsc
+    StatscOfGeneration1 *--> PokemonBattleType
     StatscOfGeneration1 *--> BaseStatsOfGeneration1
 
     class GameProduct {
@@ -67,6 +68,28 @@ classDiagram
     GameProduct *--> Hardware
     GameProduct *--> Generation
     GameProduct *--> RegionPokedex
+
+    class PokemonBattleType {
+        <<enum>>
+        NORMAL
+        FIRE
+        WATER
+        GRASS
+        ELECTRIC
+        ICE
+        FIGHTING
+        POISON
+        GROUND
+        FLYING
+        PSYCHIC
+        BUG
+        ROCK
+        GHOST
+        DRAGON
+        DARK
+        STEEL
+        FAIRY
+    }
 
     class BaseStatsOfGeneration1 {
         Number hitPoint
